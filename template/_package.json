@@ -18,7 +18,6 @@
     "precommit": "npm run lint"<% } %>
   },
   "dependencies": {
-    "cross-env": "^5.0.1",
     "nuxt": "^1.4.2"<% if (server === 'express') { %>,
     "express": "^4.15.3"<% } else if (server === 'koa') { %>,
     "koa": "^2.3.0"<% } else if (server === 'hapi') { %>,
@@ -48,7 +47,7 @@
   "devDependencies": {<% if (eslint === 'yes') { %>
     "prettier": "^1.12.1",
     "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
+    "eslint": "^5.0.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-config-standard": "^11.0.0",
@@ -60,9 +59,10 @@
     "eslint-plugin-standard": "^3.1.0",
     "eslint-plugin-vue": "^4.5.0"<% } %><% if (ui === 'tailwind') { %>,
     "autoprefixer": "^7.1.6",
-    "tailwindcss": "^0.6.4"<% } else if (ui === 'vuetify') { %>,
+    "tailwindcss": "^0.6.6"<% } else if (ui === 'vuetify') { %>,
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"<% } %><% if (server !== 'none') { %>,
     "nodemon": "^1.11.0"<% } %>
+    "cross-env": "^5.0.1"
   }
 }

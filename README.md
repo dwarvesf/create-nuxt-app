@@ -9,18 +9,20 @@
 ![preview](https://ooo.0o0.ooo/2017/08/05/5984b16ed9749.gif)
 </details>
 
-## Usage
+## Clone template by SAO
 
-Make sure you have [npx](https://www.npmjs.com/package/npx) installed (`npx` is shipped by default since NPM `5.2.0`)
+Install [SAO](https://github.com/egoist/sao) first.
 
 ```bash
-npx create-nuxt-app <my-project>
+yarn global add sao
+# or
+npm i -g sao
 ```
 
-Or with [yarn](https://yarnpkg.com/en/):
+**From git (must be same as phoenix project name)**
 
 ```bash
-yarn create nuxt-app <my-project>
+sao dwarvesf/create-nuxt-app my_project
 ```
 
 ## Features :tada:
