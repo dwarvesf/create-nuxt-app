@@ -4,11 +4,6 @@
 
 > Create a [Nuxt.js](https://github.com/nuxt/nuxt.js) project in seconds
 
-<details><summary>Preview</summary>
-
-![preview](https://ooo.0o0.ooo/2017/08/05/5984b16ed9749.gif)
-</details>
-
 ## Clone template by SAO
 
 Install [SAO](https://github.com/egoist/sao) first.
