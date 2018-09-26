@@ -62,7 +62,7 @@
     "tailwindcss": "^0.6.6"<% } else if (ui === 'vuetify') { %>,
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1"<% } %><% if (server !== 'none') { %>,
-    "nodemon": "^1.11.0"<% } %>
+    "nodemon": "^1.11.0",<% } %>
     "cross-env": "^5.0.1"
   }
 }
